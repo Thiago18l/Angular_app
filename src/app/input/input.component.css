@@ -1,0 +1,8 @@
+.input {
+    display: grid;
+    justify-items: center;
+    margin: auto;
+}
+.input input {
+    width: 75vh;
+}

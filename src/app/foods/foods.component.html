@@ -1,0 +1,63 @@
+<div class="container">
+    <div class="mat-nav-list">
+      <a (click)="all()">
+        <div class="reorder">
+            <i class="menu">
+              <img src="assets/menu.png" />
+            </i>
+            <p>All</p>
+        </div>
+      </a>
+      <a>
+        <div class="chinese_icon">
+          <i class="chinese_item">
+              <img src="./assets/ramen.png"/>
+          </i>
+          <p>Chinese</p>
+        </div>
+      </a>
+      <a>
+        <div class="burg_icon">
+          <i class="burg_item">
+            <img src="assets/burger.png"/>
+          </i>
+          <p>Burgers</p>
+        </div>
+      </a>
+      <a>
+        <div class="salad_icon">
+          <i class="salad_item">
+            <img src="assets/healthy-food.png"/>
+          </i>
+          <p>Salad</p>
+        </div>
+      </a>
+      <a>
+        <div class="cake_icon">
+          <i class="cake_item">
+            <img src="assets/cake.png"/>
+          </i>
+          <p>Cake</p>
+        </div>
+      </a>
+      <a>
+        <div class="pizza_icon">
+          <i class="pizza_item">
+            <img src="assets/pizza-slice.png"/>
+          </i>
+          <p>Pizza</p>
+        </div>
+      </a>
+    </div>
+    <div class="mat-list-item">
+      <app-restaurants></app-restaurants>
+      <div *ngFor="let food of FoodItems"
+          [class.selected] = "food.cuisine == selectFood"
+           (click)="onSelect(food)"
+      >
+        <span>{{food.title}}</span>
+
+      </div>
+    </div>
+</div>
+

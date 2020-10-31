@@ -1,0 +1,15 @@
+html {
+    margin: 0;
+}
+body {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    justify-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container h1 {
+    color: blueviolet;
+}

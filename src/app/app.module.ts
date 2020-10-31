@@ -2,15 +2,23 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { InputComponent } from './input/input.component';
+import { FoodsComponent } from './foods/foods.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { RestaurantsComponent } from './restaurants/restaurants.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    InputComponent,
+    AppComponent,
+    FoodsComponent,
+    RestaurantsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent, InputComponent, FoodsComponent]
 })
 export class AppModule { }

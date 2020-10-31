@@ -1,0 +1,90 @@
+html {
+  margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 3vh;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+.mat-nav-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.reorder {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+}
+.reorder .menu img{
+  width: 30px;
+}
+.container .mat-nav-list div {
+    margin: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    font-weight: 600;
+}
+.nav-item {
+  display: flex;
+  justify-content: center;
+  alignment-baseline: baseline;
+}
+.nav-item p {
+  margin-top: 2px;
+}
+.chinese_icon {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.chinese_icon .chinese_item img {
+  width: 30px;
+}
+.burg_icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.burg_icon .burg_item img {
+  width: 30px;
+}
+.salad_icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.salad_icon .salad_item img {
+  width: 30px;
+}
+.cake_icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.cake_icon .cake_item img {
+  width: 30px;
+}
+.pizza_icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.pizza_icon .pizza_item img {
+  width: 30px;
+}
